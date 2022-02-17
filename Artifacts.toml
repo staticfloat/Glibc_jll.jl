@@ -1,18 +1,18 @@
 [[Glibc]]
 arch = "i686"
-git-tree-sha1 = "9cc430b7471945de0937cf6d1a89182738ac91f1"
+git-tree-sha1 = "f5b95a83becddc064df1894b8c14da018be38b50"
 libc = "glibc"
 os = "linux"
 
     [[Glibc.download]]
-    sha256 = "5d1946b6badb7ee026c30bdde5ab8844339ac176f966ec719170c13f10ee2259"
-    url = "https://github.com/JuliaBinaryWrappers/Glibc_jll.jl/releases/download/Glibc-v2.12.2+0/Glibc.v2.12.2.i686-linux-gnu.tar.gz"
+    sha256 = "c50eaaeb473a7d2d589b928757c2c16b21a3bb3b3be78b315f4e82d6feb5068b"
+    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/Glibc-v2.12.2+2/Glibc.v2.12.2.i686-linux-gnu.tar.gz"
 [[Glibc]]
 arch = "x86_64"
-git-tree-sha1 = "5119266e51ad8c0f00efbf9adf27fcb6da1dee96"
+git-tree-sha1 = "89214576c783dc7eda80d4e35fbc7924aae3f5d0"
 libc = "glibc"
 os = "linux"
 
     [[Glibc.download]]
-    sha256 = "1ac98065d893470a2a5473a0b551a95a678ad0dc3ce6c9e2ec8793cedf499524"
-    url = "https://github.com/JuliaBinaryWrappers/Glibc_jll.jl/releases/download/Glibc-v2.12.2+0/Glibc.v2.12.2.x86_64-linux-gnu.tar.gz"
+    sha256 = "c7b176c5ca12b2a23cc6f0458a5a01c14c1c6c0693dd8291e4029ed38f63be7d"
+    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/Glibc-v2.12.2+2/Glibc.v2.12.2.x86_64-linux-gnu.tar.gz"
