@@ -13,17 +13,17 @@ platform = "x86_64-linux-gnu"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:f47083d206ab3dc72d58594ac1d4a95338246d0a"
+    treehash = "sha1:18f10b49ef9495fc9d9055ab94f4d6f3b5449889"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:e93e3168db44aee2c14c5b7b5a7c9aee592007f662f3b29dedb9b523fb3bfb3b"
+        tarball_hash = "sha256:8093520024d59cda84baf11878372c444eec1d32fd443c6e4deb6b6019c76943"
         url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.1/Glibc-build_log-v2.17.1-x86_64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
     treehash = "sha1:9407ffff83abc833318c84a3b3dcfe753f2fd8f2"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:b2e2ab516c16968c739a08de53b8828f8fac4083e130f1be9fc19ba66a7c8198"
+        tarball_hash = "sha256:b4748c0853d333052774052acf8c3a3ed3a3aa3eb5c6a4d33dd8a83238e92e67"
         url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.1/Glibc-extract_log-v2.17.1-x86_64-linux-gnu.tar.gz"
 
     [[builds.products]]
@@ -70,10 +70,10 @@ platform = "x86_64-linux-gnu"
     url = "/home/sabae/src/BB2/bootstrap/Glibc/patches-v2.17.0"
 
     [builds.artifact]
-    treehash = "sha1:fea25754d6a6e294cf42cb2160b1529d232bd1ca"
+    treehash = "sha1:448e83f8168f99c132b59151a0d2eaa3fe42fb3a"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:444a6bfb2d1bbcf3e4ce94dbd869284e4dcd20f2c144baf757d50da7eac2122e"
+        tarball_hash = "sha256:130d263b96e183a15c78508fb0b121421ce37c2865b01f3be5deba1ef09817ad"
         url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.1/Glibc-v2.17.1-x86_64-linux-gnu.tar.gz"
 [[builds]]
 deps = []
@@ -85,17 +85,17 @@ platform = "i686-linux-gnu"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:682bf72016ada368c9c497d2fadcf5cb2954308a"
+    treehash = "sha1:8475dbe84b06b9f33f5d32d1b30c9996de027a83"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:0094af2d214fdcf6bed204539063d6fbf274bdb4a508c751f5ca2affbb347291"
+        tarball_hash = "sha256:ea78062bd06d381f9af06befc6aa1c0ae964b7cff513749413f042ddd08b35b8"
         url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.1/Glibc-build_log-v2.17.1-i686-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
     treehash = "sha1:c03d924bfd3597e6ddedf856e8dfa52025f7b45c"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:f407533fb37bcea4f55b0665c86a42de9dceec36fc384bbba8e5448c1ffdcc97"
+        tarball_hash = "sha256:686fc0bccac0baaa4e1cf930aa7f4651fcdabdf42079f7bb56c534c941fe5610"
         url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.1/Glibc-extract_log-v2.17.1-i686-linux-gnu.tar.gz"
 
     [[builds.products]]
@@ -142,10 +142,10 @@ platform = "i686-linux-gnu"
     url = "/home/sabae/src/BB2/bootstrap/Glibc/patches-v2.17.0"
 
     [builds.artifact]
-    treehash = "sha1:4f776eb8f88a46d2fd673f5ca0b68cead3f332d2"
+    treehash = "sha1:4d0955779de021773611876cc0001ad95968d1ad"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:bc590bcc7314f10b2177fd92e6f6b95a73d4700483a96369dc1be262b402feb2"
+        tarball_hash = "sha256:6b0b630d62a3574b26bd7701744be1403413021c2e42504c3cfb33828afb9454"
         url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.1/Glibc-v2.17.1-i686-linux-gnu.tar.gz"
 [[builds]]
 deps = []
@@ -157,17 +157,17 @@ platform = "powerpc64le-linux-gnu"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:c32aa3232653c2a872e89451b7c1e3d8fc3b182d"
+    treehash = "sha1:cddec87539a2d96a6089fcf56eaa9ef57f729fcf"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:fb1db1a1b7d36ddda36bb8dd140316138e5dd99d2a0e69e8a8b958765ffb438f"
+        tarball_hash = "sha256:b1487bcffd3cd2052fc360ee7343a1007a3e91345dd17e9c2ecf38da7b28c5d0"
         url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.1/Glibc-build_log-v2.17.1-powerpc64le-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
     treehash = "sha1:2cc54dcec1d57d41313de3460e1c81fe9b1f8c33"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:381a98c8f6aefeecaa83ebf54e0ffaaa461fa8f921461c037680c1e3a89b4bf3"
+        tarball_hash = "sha256:6c6096c8f88799b301dcef21e29c9c4256457ee8605818f2682ebac2a32249cf"
         url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.1/Glibc-extract_log-v2.17.1-powerpc64le-linux-gnu.tar.gz"
 
     [[builds.products]]
@@ -214,8 +214,8 @@ platform = "powerpc64le-linux-gnu"
     url = "/home/sabae/src/BB2/bootstrap/Glibc/patches-v2.17.0"
 
     [builds.artifact]
-    treehash = "sha1:a288e471af52b5d97125d23a138ac39756755aba"
+    treehash = "sha1:0fc22d84c6b034735c8529e40f4946b633c24188"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:18672ad5ff273c703be9e1a6c59e17e6faf2b5c6dc5e5541ea3e371f7bf954e6"
+        tarball_hash = "sha256:dfaf3bd70dd72baf95de028887b2a9ddc67a26c7daa2bf374958b22abafa55ae"
         url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.1/Glibc-v2.17.1-powerpc64le-linux-gnu.tar.gz"
