@@ -8,7 +8,7 @@ For more details about JLL packages and how to use them, see the `BinaryBuilder.
 The binaries for `Glibc` have been built from upstream sources version v2.17.0:
 
  - [https://mirrors.kernel.org/gnu/glibc/glibc-2.17.tar.xz](https://mirrors.kernel.org/gnu/glibc/glibc-2.17.tar.xz) (treehash: sha1:7891386e629b8a7b7c702c79f14f4ce5e37ee032)
- - [/home/sabae/src/BB2/bootstrap/Glibc/bundled/patches-v2.17.0](/home/sabae/src/BB2/bootstrap/Glibc/bundled/patches-v2.17.0) (treehash: sha1:bbe067ca28f2e91c00b8b6b759b326aeedb6b074)
+ - [/home/sabae/src/BB2/bootstrap/Glibc/patches-v2.17.0](/home/sabae/src/BB2/bootstrap/Glibc/patches-v2.17.0) (treehash: sha1:bbe067ca28f2e91c00b8b6b759b326aeedb6b074)
 # Platforms
 
 `Glibc` is available for the following platforms:
