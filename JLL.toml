@@ -1,5 +1,5 @@
 name = "Glibc"
-version = "2.19.1"
+version = "2.17.6"
 julia_compat = "1.6"
 platform_augmentation_code = ""
 
@@ -7,431 +7,215 @@ platform_augmentation_code = ""
 deps = []
 name = "Glibc"
 lazy = "false"
-src_version = "2.19.0"
+src_version = "2.17.0"
 platform = "x86_64-linux-gnu"
 
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:5af43af26b8808cdd6b9e73ea8c2295cbe24bd77"
+    treehash = "sha1:c074ef856da5aecb60c2119a95e424c5b9bbe5b7"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:500b198a51a4868ce0138a91829c6463a1e9b01a7e73395cc71f40dbebbf6d56"
-        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1/Glibc-build_log-v2.19.1-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:ade1d627f8025e8e72618ef3d73bc6b1e7345e542af268865ecf515ef732ab1d"
+        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.6-GCC/Glibc-build_log-v2.17.6-x86_64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:279c97b9412da250ea2ef63a613ed3702f407cbe"
+    treehash = "sha1:c94e35ec90d5f4e6f2662a51b061eef395bc2e1e"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:6146d4211c19fa4d10d55557dfca3ec8c83d51b2f2d5d27240a363350ef644a8"
-        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1/Glibc-extract_log-v2.19.1-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:4a159381d64714130f02ad06cdaa6fd53750957be1c008afe4db0cc3137aa5b2"
+        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.6-GCC/Glibc-extract_log-v2.17.6-x86_64-linux-gnu.tar.gz"
 
-    [[builds.products]]
-    deps = []
-    name = "librt"
-    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
-    soname = "librt.so.1"
-    type = "library"
-    path = "lib64/librt-2.19.so"
-    [[builds.products]]
-    deps = []
-    name = "libld"
-    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
-    soname = "libdl.so.2"
-    type = "library"
-    path = "lib64/libdl-2.19.so"
-    [[builds.products]]
-    deps = []
-    name = "libm"
-    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
-    soname = "libm.so.6"
-    type = "library"
-    path = "lib64/libm-2.19.so"
     [[builds.products]]
     deps = []
     name = "libpthread"
     flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
     soname = "libpthread.so.0"
     type = "library"
-    path = "lib64/libpthread-2.19.so"
+    path = "lib/libpthread-2.17.so"
     [[builds.products]]
     deps = []
     name = "libc"
     flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
     soname = "libc.so.6"
     type = "library"
-    path = "lib64/libc-2.19.so"
+    path = "lib/libc-2.17.so"
+    [[builds.products]]
+    deps = []
+    name = "libm"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libm.so.6"
+    type = "library"
+    path = "lib/libm-2.17.so"
+    [[builds.products]]
+    deps = []
+    name = "librt"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "librt.so.1"
+    type = "library"
+    path = "lib/librt-2.17.so"
+    [[builds.products]]
+    deps = []
+    name = "libld"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libdl.so.2"
+    type = "library"
+    path = "lib/libdl-2.17.so"
 
     [[builds.sources]]
-    treehash = "sha1:474cd7b41c1a9d48a9e6c8d5e7f606961e4f81e6"
-    url = "https://mirrors.kernel.org/gnu/glibc/glibc-2.19.tar.xz"
+    treehash = "sha1:7891386e629b8a7b7c702c79f14f4ce5e37ee032"
+    url = "https://mirrors.kernel.org/gnu/glibc/glibc-2.17.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:ff7aecceba8d4eabed40ec2f7b67ad4db8ebd92c"
-    url = "/home/sabae/src/BB2/bootstrap/Glibc/patches-v2.19.0"
+    treehash = "sha1:bbe067ca28f2e91c00b8b6b759b326aeedb6b074"
+    url = "/home/sabae/src/BB2/bootstrap/Glibc/patches-v2.17.0"
 
     [builds.artifact]
-    treehash = "sha1:1b98c56bd1ca7573643aec267cf05338716a68ee"
+    treehash = "sha1:851cd63854ff7c07088852f922b02c3db1981224"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:52a22a212bc039a72aee1852e4a823eabffda56bc010ed753683780771e1610f"
-        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1/Glibc-v2.19.1-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:a2e2ad6ea18aef4405cfd44ca7535d825f21efb4b8fb9fda6032c510d85efcac"
+        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.6-GCC/Glibc-v2.17.6-x86_64-linux-gnu.tar.gz"
 [[builds]]
 deps = []
 name = "Glibc"
 lazy = "false"
-src_version = "2.19.0"
+src_version = "2.17.0"
 platform = "i686-linux-gnu"
 
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:57f46565945bb521c65fa330fc04d1b3b27b73f1"
+    treehash = "sha1:5de8740e87903f1e022ee6e97fdd1f3612ab2e64"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:57f1c1ebeb1e4790dbd051b094965eed62d9a41cf41eb7a58ff8fa28dcb54821"
-        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1/Glibc-build_log-v2.19.1-i686-linux-gnu.tar.gz"
+        tarball_hash = "sha256:01070d6840aca8c614dfb0f35a9794615aadda52ffcb8ff0de4b6bb92d42bc86"
+        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.6-GCC/Glibc-build_log-v2.17.6-i686-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:22022527f9ebee1b24d27400e331c433dc293cbb"
+    treehash = "sha1:8094ccbb06db6ea364b1e1ed50cbb2872a9356cb"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:1dfc2fb959c550fc4ef8ff771c6e7e6bf2f10767dc542b46cb782ac6744e8529"
-        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1/Glibc-extract_log-v2.19.1-i686-linux-gnu.tar.gz"
+        tarball_hash = "sha256:cf72fb910b08579592d63fb8a62079738fa745fb422b647e2229d0b1727e5e99"
+        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.6-GCC/Glibc-extract_log-v2.17.6-i686-linux-gnu.tar.gz"
 
-    [[builds.products]]
-    deps = []
-    name = "libm"
-    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
-    soname = "libm.so.6"
-    type = "library"
-    path = "lib/libm-2.19.so"
     [[builds.products]]
     deps = []
     name = "libpthread"
     flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
     soname = "libpthread.so.0"
     type = "library"
-    path = "lib/libpthread-2.19.so"
+    path = "lib/libpthread-2.17.so"
     [[builds.products]]
     deps = []
     name = "libc"
     flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
     soname = "libc.so.6"
     type = "library"
-    path = "lib/libc-2.19.so"
-    [[builds.products]]
-    deps = []
-    name = "librt"
-    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
-    soname = "librt.so.1"
-    type = "library"
-    path = "lib/librt-2.19.so"
-    [[builds.products]]
-    deps = []
-    name = "libld"
-    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
-    soname = "libdl.so.2"
-    type = "library"
-    path = "lib/libdl-2.19.so"
-
-    [[builds.sources]]
-    treehash = "sha1:474cd7b41c1a9d48a9e6c8d5e7f606961e4f81e6"
-    url = "https://mirrors.kernel.org/gnu/glibc/glibc-2.19.tar.xz"
-    [[builds.sources]]
-    treehash = "sha1:ff7aecceba8d4eabed40ec2f7b67ad4db8ebd92c"
-    url = "/home/sabae/src/BB2/bootstrap/Glibc/patches-v2.19.0"
-
-    [builds.artifact]
-    treehash = "sha1:fb7e9030ed075134f195300656c5d2f7adedd5ad"
-
-        [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:134716744c2a861ec9c2c7cab7aee352251a6d7885f1f1ae3a8d5da2e55cc543"
-        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1/Glibc-v2.19.1-i686-linux-gnu.tar.gz"
-[[builds]]
-deps = []
-name = "Glibc"
-lazy = "false"
-src_version = "2.19.0"
-platform = "armv7l-linux-gnueabihf"
-
-    [builds.callback_defs]
-
-    [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:c070d7b697ce8fc102c7626d944baac599c90170"
-
-        [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:b221bfffc48f860141585da5d7675f7400b271b7c9e6beb2d6818e5c11b9bddc"
-        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1/Glibc-build_log-v2.19.1-armv7l-linux-gnueabihf.tar.gz"
-
-    [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:77cebc0505df728eee9d395f30bd81066fdb630b"
-
-        [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:f90465c70c5f197a0e3c5cbc2945178a28813ad52ea5c6c264c86ccfa375ec24"
-        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1/Glibc-extract_log-v2.19.1-armv7l-linux-gnueabihf.tar.gz"
-
+    path = "lib/libc-2.17.so"
     [[builds.products]]
     deps = []
     name = "libm"
     flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
     soname = "libm.so.6"
     type = "library"
-    path = "lib/libm-2.19.so"
-    [[builds.products]]
-    deps = []
-    name = "libpthread"
-    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
-    soname = "libpthread.so.0"
-    type = "library"
-    path = "lib/libpthread-2.19.so"
-    [[builds.products]]
-    deps = []
-    name = "libc"
-    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
-    soname = "libc.so.6"
-    type = "library"
-    path = "lib/libc-2.19.so"
+    path = "lib/libm-2.17.so"
     [[builds.products]]
     deps = []
     name = "librt"
     flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
     soname = "librt.so.1"
     type = "library"
-    path = "lib/librt-2.19.so"
+    path = "lib/librt-2.17.so"
     [[builds.products]]
     deps = []
     name = "libld"
     flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
     soname = "libdl.so.2"
     type = "library"
-    path = "lib/libdl-2.19.so"
+    path = "lib/libdl-2.17.so"
 
     [[builds.sources]]
-    treehash = "sha1:474cd7b41c1a9d48a9e6c8d5e7f606961e4f81e6"
-    url = "https://mirrors.kernel.org/gnu/glibc/glibc-2.19.tar.xz"
+    treehash = "sha1:7891386e629b8a7b7c702c79f14f4ce5e37ee032"
+    url = "https://mirrors.kernel.org/gnu/glibc/glibc-2.17.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:ff7aecceba8d4eabed40ec2f7b67ad4db8ebd92c"
-    url = "/home/sabae/src/BB2/bootstrap/Glibc/patches-v2.19.0"
+    treehash = "sha1:bbe067ca28f2e91c00b8b6b759b326aeedb6b074"
+    url = "/home/sabae/src/BB2/bootstrap/Glibc/patches-v2.17.0"
 
     [builds.artifact]
-    treehash = "sha1:67ae828b29f1751341d1806d4482bf523f876b9c"
+    treehash = "sha1:acd4afe5ac5444ea29d80ff1dbd7aaab33e76100"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:3ba299b7519422ec2483a6b5e799d0fb860b2fa29527368b8230157094413ad3"
-        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1/Glibc-v2.19.1-armv7l-linux-gnueabihf.tar.gz"
+        tarball_hash = "sha256:aa24fe1ff1028809b073de3befdc5de8152febe8e7222f41a32c2bdaea978884"
+        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.6-GCC/Glibc-v2.17.6-i686-linux-gnu.tar.gz"
 [[builds]]
 deps = []
 name = "Glibc"
 lazy = "false"
-src_version = "2.19.0"
-platform = "armv6l-linux-gnueabihf"
-
-    [builds.callback_defs]
-
-    [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:282945a3caa1394316003878d120ea75ad7e6b91"
-
-        [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:f92729e4dd2f70745b44a21febd42e61f3df39c66362780d47aacc4bc7b5d02d"
-        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1/Glibc-build_log-v2.19.1-armv6l-linux-gnueabihf.tar.gz"
-
-    [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:48203a249ed740079ef137b0e4385978ec99c134"
-
-        [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:f3c7ae779ed6500b16ee8947d0ed517fb5fa088622604ca312f69e9be446d991"
-        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1/Glibc-extract_log-v2.19.1-armv6l-linux-gnueabihf.tar.gz"
-
-    [[builds.products]]
-    deps = []
-    name = "libm"
-    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
-    soname = "libm.so.6"
-    type = "library"
-    path = "lib/libm-2.19.so"
-    [[builds.products]]
-    deps = []
-    name = "libpthread"
-    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
-    soname = "libpthread.so.0"
-    type = "library"
-    path = "lib/libpthread-2.19.so"
-    [[builds.products]]
-    deps = []
-    name = "libc"
-    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
-    soname = "libc.so.6"
-    type = "library"
-    path = "lib/libc-2.19.so"
-    [[builds.products]]
-    deps = []
-    name = "librt"
-    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
-    soname = "librt.so.1"
-    type = "library"
-    path = "lib/librt-2.19.so"
-    [[builds.products]]
-    deps = []
-    name = "libld"
-    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
-    soname = "libdl.so.2"
-    type = "library"
-    path = "lib/libdl-2.19.so"
-
-    [[builds.sources]]
-    treehash = "sha1:474cd7b41c1a9d48a9e6c8d5e7f606961e4f81e6"
-    url = "https://mirrors.kernel.org/gnu/glibc/glibc-2.19.tar.xz"
-    [[builds.sources]]
-    treehash = "sha1:ff7aecceba8d4eabed40ec2f7b67ad4db8ebd92c"
-    url = "/home/sabae/src/BB2/bootstrap/Glibc/patches-v2.19.0"
-
-    [builds.artifact]
-    treehash = "sha1:2d9de910adf771ee996351fc16e56174aed02bd9"
-
-        [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:ebad61391a30a6e3cd1caa0bff5139c5c77ca0c68876c63bb921d675b46a4405"
-        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1/Glibc-v2.19.1-armv6l-linux-gnueabihf.tar.gz"
-[[builds]]
-deps = []
-name = "Glibc"
-lazy = "false"
-src_version = "2.19.0"
-platform = "aarch64-linux-gnu"
-
-    [builds.callback_defs]
-
-    [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:6db4d6641b7482a601e65a662bf9c55a689dfa78"
-
-        [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:76b46de7d66c60473b6e3612f5d417cdfec5d105d7be5e359c3ab02a34a6ea12"
-        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1/Glibc-build_log-v2.19.1-aarch64-linux-gnu.tar.gz"
-
-    [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:9662404daab58b64592c42cc512a8d5ce22b8831"
-
-        [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:b2f21fd6244cfe2523323b9353327c5e1171b03a47b818b44c9f703122a65e72"
-        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1/Glibc-extract_log-v2.19.1-aarch64-linux-gnu.tar.gz"
-
-    [[builds.products]]
-    deps = []
-    name = "librt"
-    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
-    soname = "librt.so.1"
-    type = "library"
-    path = "lib64/librt-2.19.so"
-    [[builds.products]]
-    deps = []
-    name = "libld"
-    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
-    soname = "libdl.so.2"
-    type = "library"
-    path = "lib64/libdl-2.19.so"
-    [[builds.products]]
-    deps = []
-    name = "libm"
-    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
-    soname = "libm.so.6"
-    type = "library"
-    path = "lib64/libm-2.19.so"
-    [[builds.products]]
-    deps = []
-    name = "libpthread"
-    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
-    soname = "libpthread.so.0"
-    type = "library"
-    path = "lib64/libpthread-2.19.so"
-    [[builds.products]]
-    deps = []
-    name = "libc"
-    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
-    soname = "libc.so.6"
-    type = "library"
-    path = "lib64/libc-2.19.so"
-
-    [[builds.sources]]
-    treehash = "sha1:474cd7b41c1a9d48a9e6c8d5e7f606961e4f81e6"
-    url = "https://mirrors.kernel.org/gnu/glibc/glibc-2.19.tar.xz"
-    [[builds.sources]]
-    treehash = "sha1:ff7aecceba8d4eabed40ec2f7b67ad4db8ebd92c"
-    url = "/home/sabae/src/BB2/bootstrap/Glibc/patches-v2.19.0"
-
-    [builds.artifact]
-    treehash = "sha1:51fc716cf78b64a0afbdf1748fc3f4022fce9d39"
-
-        [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:90e45c6b99dfed1787717d1745c11b6198963da6d86e53df3b39c2aebebdc749"
-        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1/Glibc-v2.19.1-aarch64-linux-gnu.tar.gz"
-[[builds]]
-deps = []
-name = "Glibc"
-lazy = "false"
-src_version = "2.19.0"
+src_version = "2.17.0"
 platform = "powerpc64le-linux-gnu"
 
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:409cfb8345af64da81b3e0a5b1ee8a07eb985acb"
+    treehash = "sha1:2119fc87e1a79b6ff67b73db4b2622d5f97f3459"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:623fd1852eebc45f5b45a6ac7df3853e7a30851316951b7fde456366866d107b"
-        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1/Glibc-build_log-v2.19.1-powerpc64le-linux-gnu.tar.gz"
+        tarball_hash = "sha256:fdf8ecd96e2fbaf320697ff7d078e7c73347178a0cb0d31b9c22db6f4ee18fa7"
+        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.6-GCC/Glibc-build_log-v2.17.6-powerpc64le-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:7843aed8a649e685656f01e9ef7fda40339abd59"
+    treehash = "sha1:a59626724cdd752e4d4decd28106a2eed0f53e3a"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:e907cc0ea3efb41a650c11ec8d240bd6c7cad971916b67ffc954e05c6bea5d85"
-        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1/Glibc-extract_log-v2.19.1-powerpc64le-linux-gnu.tar.gz"
+        tarball_hash = "sha256:00d9eb97a72c71dcc01b0dd85063158d759b631df788a4188c9bb1968cf738d9"
+        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.6-GCC/Glibc-extract_log-v2.17.6-powerpc64le-linux-gnu.tar.gz"
 
-    [[builds.products]]
-    deps = []
-    name = "libm"
-    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
-    soname = "libm.so.6"
-    type = "library"
-    path = "lib/libm-2.19.so"
     [[builds.products]]
     deps = []
     name = "libpthread"
     flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
     soname = "libpthread.so.0"
     type = "library"
-    path = "lib/libpthread-2.19.so"
+    path = "lib/libpthread-2.17.so"
     [[builds.products]]
     deps = []
     name = "libc"
     flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
     soname = "libc.so.6"
     type = "library"
-    path = "lib/libc-2.19.so"
+    path = "lib/libc-2.17.so"
+    [[builds.products]]
+    deps = []
+    name = "libm"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libm.so.6"
+    type = "library"
+    path = "lib/libm-2.17.so"
     [[builds.products]]
     deps = []
     name = "librt"
     flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
     soname = "librt.so.1"
     type = "library"
-    path = "lib/librt-2.19.so"
+    path = "lib/librt-2.17.so"
     [[builds.products]]
     deps = []
     name = "libld"
     flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
     soname = "libdl.so.2"
     type = "library"
-    path = "lib/libdl-2.19.so"
+    path = "lib/libdl-2.17.so"
 
     [[builds.sources]]
-    treehash = "sha1:474cd7b41c1a9d48a9e6c8d5e7f606961e4f81e6"
-    url = "https://mirrors.kernel.org/gnu/glibc/glibc-2.19.tar.xz"
+    treehash = "sha1:7891386e629b8a7b7c702c79f14f4ce5e37ee032"
+    url = "https://mirrors.kernel.org/gnu/glibc/glibc-2.17.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:ff7aecceba8d4eabed40ec2f7b67ad4db8ebd92c"
-    url = "/home/sabae/src/BB2/bootstrap/Glibc/patches-v2.19.0"
+    treehash = "sha1:bbe067ca28f2e91c00b8b6b759b326aeedb6b074"
+    url = "/home/sabae/src/BB2/bootstrap/Glibc/patches-v2.17.0"
 
     [builds.artifact]
-    treehash = "sha1:1ce82a2234a50523212bca16a7d19c377ca639ab"
+    treehash = "sha1:d139f197231e3df9e3d2c9e4c46646cdbe1ba141"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:171a72dde724158627f746de674d95e7f07330b19a91ea7eaadcfbcccde6e6e1"
-        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1/Glibc-v2.19.1-powerpc64le-linux-gnu.tar.gz"
+        tarball_hash = "sha256:def9ba780a736015df9edf40f58750647133df589e000c70683e7a5bf06acc17"
+        url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.6-GCC/Glibc-v2.17.6-powerpc64le-linux-gnu.tar.gz"
