@@ -1,182 +1,89 @@
 [[Glibc]]
-arch = "x86_64"
-git-tree-sha1 = "26223e5afab2bf70ce458ecfe191d084d9305bd4"
-libc = "glibc"
-os = "linux"
-
-    [[Glibc.download]]
-    sha256 = "c0f1bd4128611932f216809076741ce791888c7bf6218c8125f0171cca0e5a11"
-    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1-GCCBootstrap-x86_64-linux-gnu/Glibc-v2.19.1-x86_64-linux-gnu.tar.gz"
-[[Glibc]]
 arch = "i686"
-git-tree-sha1 = "82b4725244aae985c9af7536bcbfc04e8855c2e1"
+git-tree-sha1 = "7a40d4ed2c1d4fbfe9e258a0e465e7723e0f31ea"
 libc = "glibc"
 os = "linux"
 
     [[Glibc.download]]
-    sha256 = "3142c89d687ffc96f0adc3ea4d773e5b6b3d98d93629d093b0bb93d7e47538bf"
-    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1-GCCBootstrap-x86_64-linux-gnu/Glibc-v2.19.1-i686-linux-gnu.tar.gz"
-[[Glibc]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "573a76007f92d2ba2638ea3f057e63ca5b08686a"
-libc = "glibc"
-os = "linux"
-
-    [[Glibc.download]]
-    sha256 = "c74c419364d1b92d38b376551564a3f44fa8ed2bf7ac20e5e384609d5f7cdffc"
-    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1-GCCBootstrap-x86_64-linux-gnu/Glibc-v2.19.1-armv7l-linux-gnueabihf.tar.gz"
-[[Glibc]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "730491e4712cac225e345c08fd32bad90ba048e3"
-libc = "glibc"
-os = "linux"
-
-    [[Glibc.download]]
-    sha256 = "f97ac9f9228d41014bf37796adaac61c4765e87ef05018ca123424aab02d1c58"
-    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1-GCCBootstrap-x86_64-linux-gnu/Glibc-v2.19.1-armv6l-linux-gnueabihf.tar.gz"
-[[Glibc]]
-arch = "aarch64"
-git-tree-sha1 = "efcdca55fd7ff833c9e55858420764e6ab0f9acf"
-libc = "glibc"
-os = "linux"
-
-    [[Glibc.download]]
-    sha256 = "76799fa9ae5cd568d0c03c5b550a468da0a968840ffe9ce682a83590a2fa5ae0"
-    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1-GCCBootstrap-x86_64-linux-gnu/Glibc-v2.19.1-aarch64-linux-gnu.tar.gz"
+    sha256 = "581d90e73342764be821efb5b6dd6bb879ead2d91ae222504c89637c6d3e7ce8"
+    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.1-GCCBootstrap-x86_64-linux-gnu/Glibc-v2.17.1-i686-linux-gnu.tar.gz"
 [[Glibc]]
 arch = "powerpc64le"
-git-tree-sha1 = "07ec50223d7f3809714ac1c678664dc4864213ad"
+git-tree-sha1 = "0e5b438dd0e834512750ac5c5004d9853d2065cb"
 libc = "glibc"
 os = "linux"
 
     [[Glibc.download]]
-    sha256 = "afca3520e77aedee3f4e7b57a692f82c01fe663872f3f981ea7a338e61a23472"
-    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1-GCCBootstrap-x86_64-linux-gnu/Glibc-v2.19.1-powerpc64le-linux-gnu.tar.gz"
-
-[[Glibc-build_log]]
+    sha256 = "dc75bb9edd492341e803402ac46973170fdc3748d94b8cb6b7dd9595372890c9"
+    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.1-GCCBootstrap-x86_64-linux-gnu/Glibc-v2.17.1-powerpc64le-linux-gnu.tar.gz"
+[[Glibc]]
 arch = "x86_64"
-git-tree-sha1 = "1f4a9fa24fac9144f7782fc20526b81a9b1bd0db"
-lazy = true
+git-tree-sha1 = "4fbc2cc7c6f4145f1b4aba92751b18b3c2304a63"
 libc = "glibc"
 os = "linux"
 
-    [[Glibc-build_log.download]]
-    sha256 = "c1518feae6cccbb3e88f1849e264d091d9f882914391e33f92ebe616c3fe8602"
-    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1-GCCBootstrap-x86_64-linux-gnu/Glibc-build_log-v2.19.1-x86_64-linux-gnu.tar.gz"
+    [[Glibc.download]]
+    sha256 = "13ca6ed824b07b0282700e13c05d77832cd8ac192e31a981e292bebcac4ff4f8"
+    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.1-GCCBootstrap-x86_64-linux-gnu/Glibc-v2.17.1-x86_64-linux-gnu.tar.gz"
+
 [[Glibc-build_log]]
 arch = "i686"
-git-tree-sha1 = "f68f2b3c017d70892cd73e09afb89566fb8223be"
+git-tree-sha1 = "7df6eb3682bb57466210059286612539b544d7ca"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Glibc-build_log.download]]
-    sha256 = "83701380cc49b151fcef2250745fcac35719c101069c53de6aceba73d1e2fff2"
-    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1-GCCBootstrap-x86_64-linux-gnu/Glibc-build_log-v2.19.1-i686-linux-gnu.tar.gz"
-[[Glibc-build_log]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "58a242696b32ab11eec7938a615255635378732a"
-lazy = true
-libc = "glibc"
-os = "linux"
-
-    [[Glibc-build_log.download]]
-    sha256 = "eacd5975b6fc9aaeb638756f80c4c8aa2759bed53923d9fa203c4fbd1484c97b"
-    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1-GCCBootstrap-x86_64-linux-gnu/Glibc-build_log-v2.19.1-armv7l-linux-gnueabihf.tar.gz"
-[[Glibc-build_log]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "2ead08bbf81c7f5055b5d0a22794e75ef6db0811"
-lazy = true
-libc = "glibc"
-os = "linux"
-
-    [[Glibc-build_log.download]]
-    sha256 = "80d92cb81811c3fbb0d9620539e946af7a8741639cd364ff1f547adc295ad5d0"
-    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1-GCCBootstrap-x86_64-linux-gnu/Glibc-build_log-v2.19.1-armv6l-linux-gnueabihf.tar.gz"
-[[Glibc-build_log]]
-arch = "aarch64"
-git-tree-sha1 = "067d43de30e76af32ea15d817c81a07ab69630b4"
-lazy = true
-libc = "glibc"
-os = "linux"
-
-    [[Glibc-build_log.download]]
-    sha256 = "b20d07f69b39a2f6040acf5b98e63bbf4feca9be893626b1a8603a705b167d13"
-    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1-GCCBootstrap-x86_64-linux-gnu/Glibc-build_log-v2.19.1-aarch64-linux-gnu.tar.gz"
+    sha256 = "84b2a846c002b274583aed6dbf079f674c948a42e548776e8af88b2703dc8555"
+    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.1-GCCBootstrap-x86_64-linux-gnu/Glibc-build_log-v2.17.1-i686-linux-gnu.tar.gz"
 [[Glibc-build_log]]
 arch = "powerpc64le"
-git-tree-sha1 = "b5b05a368d426e5f1038a3a39ad910a2f076e902"
+git-tree-sha1 = "3d35536acac597df662bf10aacad92b47859bee0"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Glibc-build_log.download]]
-    sha256 = "178b3c6ab09619c6b8fc137bd467146262cbecb060489fac691aa4f443b4b580"
-    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1-GCCBootstrap-x86_64-linux-gnu/Glibc-build_log-v2.19.1-powerpc64le-linux-gnu.tar.gz"
-
-[[Glibc-extract_log]]
+    sha256 = "c0b736acf948511326241133d9e14d4834423b175a65258c85d7f719c3f91f8e"
+    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.1-GCCBootstrap-x86_64-linux-gnu/Glibc-build_log-v2.17.1-powerpc64le-linux-gnu.tar.gz"
+[[Glibc-build_log]]
 arch = "x86_64"
-git-tree-sha1 = "bd7b5b33b9fca4cbe649c47669d550bf823e7fee"
+git-tree-sha1 = "822c9181116cf9ab0c84c6ad0627aff31d68b1de"
 lazy = true
 libc = "glibc"
 os = "linux"
 
-    [[Glibc-extract_log.download]]
-    sha256 = "06d341db486e7aa23176694d695808e532269dfb32186e08c2be134a058da28a"
-    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1-GCCBootstrap-x86_64-linux-gnu/Glibc-extract_log-v2.19.1-x86_64-linux-gnu.tar.gz"
+    [[Glibc-build_log.download]]
+    sha256 = "bcb6983d2dfc80106e2c11470518de56812c4b7268b2ef6a3dd868434daa2d91"
+    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.1-GCCBootstrap-x86_64-linux-gnu/Glibc-build_log-v2.17.1-x86_64-linux-gnu.tar.gz"
+
 [[Glibc-extract_log]]
 arch = "i686"
-git-tree-sha1 = "0217fe66ca691d8cd636338a8944b3feb4d31be2"
+git-tree-sha1 = "e8fc6cc75c9c0491bc0a54b40e996c705782de56"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Glibc-extract_log.download]]
-    sha256 = "93331afc6c16c0743f724b84264044c55823e223880f526a9ce9798fa57dd877"
-    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1-GCCBootstrap-x86_64-linux-gnu/Glibc-extract_log-v2.19.1-i686-linux-gnu.tar.gz"
-[[Glibc-extract_log]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "76e6e670d666922da46f12de2a3db54c737d8f44"
-lazy = true
-libc = "glibc"
-os = "linux"
-
-    [[Glibc-extract_log.download]]
-    sha256 = "435a50d31335270d018a6be9bd9b57813d707ab7959d647f32ef408fbf78e449"
-    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1-GCCBootstrap-x86_64-linux-gnu/Glibc-extract_log-v2.19.1-armv7l-linux-gnueabihf.tar.gz"
-[[Glibc-extract_log]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "dd037d6f4a0d1fa07fe71f1342d826b4d184ad22"
-lazy = true
-libc = "glibc"
-os = "linux"
-
-    [[Glibc-extract_log.download]]
-    sha256 = "a8c517a0fddcdfe95d64c6ba2de2af03df7de72d29e5ade69c7b72c9e92f3996"
-    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1-GCCBootstrap-x86_64-linux-gnu/Glibc-extract_log-v2.19.1-armv6l-linux-gnueabihf.tar.gz"
-[[Glibc-extract_log]]
-arch = "aarch64"
-git-tree-sha1 = "e19021046bcbffbfec98f3362beace64996afc48"
-lazy = true
-libc = "glibc"
-os = "linux"
-
-    [[Glibc-extract_log.download]]
-    sha256 = "c22d8cb0f37fd22454116320ec98b337c9a1fe57f82f85c9f15faabc56f22822"
-    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1-GCCBootstrap-x86_64-linux-gnu/Glibc-extract_log-v2.19.1-aarch64-linux-gnu.tar.gz"
+    sha256 = "951bdb734d16d1bbd98625f80eab7053e6db8ad1b89983122f956ec765c2cced"
+    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.1-GCCBootstrap-x86_64-linux-gnu/Glibc-extract_log-v2.17.1-i686-linux-gnu.tar.gz"
 [[Glibc-extract_log]]
 arch = "powerpc64le"
-git-tree-sha1 = "e86331e82dfd2d81745df457643ff1646bda90c9"
+git-tree-sha1 = "dabdef05b7a55fdf35a7af3e3bca7167ebdb744a"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Glibc-extract_log.download]]
-    sha256 = "2b6bda77a67bd00479552d9049d566508714157026130dd8a9027d2352ea335e"
-    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.19.1-GCCBootstrap-x86_64-linux-gnu/Glibc-extract_log-v2.19.1-powerpc64le-linux-gnu.tar.gz"
+    sha256 = "f9bbd9bd1f9685cb4ee32dba6c8583a1671a8dbfab99097be5b774e79667cc38"
+    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.1-GCCBootstrap-x86_64-linux-gnu/Glibc-extract_log-v2.17.1-powerpc64le-linux-gnu.tar.gz"
+[[Glibc-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "2136f4b4f0dcf7d4f325b588ab8ec0fbb1c68048"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Glibc-extract_log.download]]
+    sha256 = "31ed6dbcb1994d4c889b0dc83212e143c293a9d606359b76fd3d78a7389bdbf8"
+    url = "https://github.com/staticfloat/Glibc_jll.jl/releases/download/v2.17.1-GCCBootstrap-x86_64-linux-gnu/Glibc-extract_log-v2.17.1-x86_64-linux-gnu.tar.gz"
